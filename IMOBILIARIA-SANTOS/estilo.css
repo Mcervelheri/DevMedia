@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.secao-menu {
+    background-color: #afddfb;
+}
+
+.secao-menu img {
+    width: 150px;
+}
+
+.secao-menu p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;    
+}
+
+.secao-menu a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.secao-banner {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.secao-sobre h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.secao-sobre h2 {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.secao-sobre img, .secao-corretores img {
+    width: 450px;
+}
+
+.secao-sobre span, .secao-corretores span {
+    color: #1d80c1;
+}
+
+.secao-servicos {
+    background-color: #1d80c1;
+}
+
+.secao-servicos h2, .secao-corretores h2, .secao-contato h2{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.secao-corretores h2 {
+    color: #1c81c0;
+}
+
+.secao-servicos p {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+    width: 700px;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+.secao-servicos ul {
+    width: 135px;
+    margin: 40px auto;
+}
+
+.secao-servicos li {
+    font-size: 22px;
+    line-height: 42px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.secao-contato {
+    background-color: #1c80c1;
+}
+
+.secao-contato p {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.secao-contato ul {
+    list-style-type: none;
+    margin: 40px auto;
+    width: 210px;
+}
+
+.secao-contato li {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.secao-contato li a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
