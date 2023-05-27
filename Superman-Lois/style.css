@@ -8,6 +8,7 @@ body {
     background: #4710c1;
     color: #fff;
     padding: 20px 0;
+    position: fixed;
 }
 
 .topo div {
@@ -33,6 +34,7 @@ body {
 
 .capa img{
     width: 100%;
+    padding-top: 66px;
 }
 
 .secao {
@@ -90,4 +92,6 @@ body {
     background: #4710c1;
     color: #fff;
     padding: 12px 0;
+    position: fixed;
+    bottom: 0;
 }

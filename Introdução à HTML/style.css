@@ -1,3 +1,18 @@
-div {
-    background: blue url('img/capa.jpg') repeat-x fixed;
-    }
+.menu {
+    position: fixed;
+    background: #edef56;
+    height: 90px;
+    width: 100%;
+}
+
+
+.help {
+    background: #edef56;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    position: fixed;
+    bottom: 25px;
+    left: 30px;
+}
