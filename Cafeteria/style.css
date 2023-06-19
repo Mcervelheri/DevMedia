@@ -160,66 +160,50 @@
 }
 
 .secao-horarios {
+    padding: 100px 20px;
     background-image: url('img/cafeteria.jpg');
-    height: 85vh;
+    background-position: center;
+    background-size: cover;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
 .secao-horarios h2 {
-    position: absolute;
-    color: #fff;
-    top: 15%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 400px;
-    text-align: center;
-
+    margin-bottom: 30px;
 }
+
 .lista {
+    width: 100%;
     max-width: 768px;
-    position: absolute;
-    margin: 0 auto;
-    bottom: 20%;
-    left: 0;
-    right: 0;
-    font-family: "Oswald", sans-serif;
-    list-style: none;
 }
 
 .lista li {
-    position: relative;
-}
-
-.lista li h3 {
-    color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .lista li div {
-    width: 70%;
     height: 1px;
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    left: 0;
-    right: 0;
-    background-color: #acacac;
+    background-color: #666;
+    flex: 1 1 auto;
 }
 
-.lista li p, .texto-marrom {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: 700;
-    font-family: "Oswald", sans-serif;
+.lista li h3 {
+    flex: 0 1 80px;
+}
+
+.lista li span, p {
+    flex: 0 1 100px;
+    text-align: right;
 }
 
 .texto-marrom {
     color: #c4a47c;
-}
-
-.lista li p {
-    color: #acacac;
 }
 
 .rodape {

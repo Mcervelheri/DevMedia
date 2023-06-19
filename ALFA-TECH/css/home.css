@@ -11,75 +11,96 @@
     margin: 0 auto;
 }
 
-.secao-topo {
-    position: relative;
-    padding: 35px 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 0px 0px;
 }
 
-.topo-logo {
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.topo-logo img {
-    width: 80px;
+.container-topo {
+    background-color: white;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.topo-logo div {
-    position: absolute;
-    top: 0;
-    left: 95px;
+.container-logo {
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.topo-logo p {
-    color: #2f86d6;
+.container-links {
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container-links a {
     font-weight: 600;
-}
-
-.topo-links {
-    position: absolute;
-    top: 65px;
-    right: 0;
-}
-
-.topo-links a {
-    font-size: 18px;
-    padding: 0 10px;
     text-decoration: none;
-    font-weight: 600;
     color: #233032;
 }
 
-.banner {
+.container-logo-imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.container-logo-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-logo p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #2f86d6;
+}
+
+.secao-banner {
     background-color: #2f86d6;
+    padding: 50px 0;
 }
 
-.container-banner {
-    position: relative;
-    padding: 180px 0;
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.container-banner div {
+.container-texto {
     color: #fff;
-    width: 470px;
+    padding: 10px 20px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
-.container-banner div p {
-    font-size: 16px;
-    line-height: 26px;
-    word-spacing: 3px;
+.container-imagem {
+    flex: 1 1 478px;
 }
 
-.container-banner div h2 {
-    font-size: 28px;
-    line-height: 40px;
-    margin: 20px 0;
-}
-
-.container-banner img {
-    width: 50%;
-    position: absolute;
-    top: 100px;
-    right: 0;
+.container-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .secao-primeiro-anuncio {

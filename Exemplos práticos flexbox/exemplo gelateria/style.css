@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-rodape {
+    width: 100%;
+    max-width: 1024px;
+    background-color: black;
+    color: white;
+}
+
+.container-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contato {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-contato div {
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 269px;
+}
+
+.container-descricao {
+    width: 100%;
+    max-width: 1024px;
+    position: relative;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-descricao div img {
+    width: 40px;
+}
+
+.container-descricao a{
+    width: 40px;
+    height: 40px;
+    background-image: url("img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #dddddd;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
